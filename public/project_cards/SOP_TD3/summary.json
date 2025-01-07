@@ -2,11 +2,6 @@
     "name": "Robotic Control w/ Reinforcement Learning.",
     "summary": "In this project, I reimplemented a synthesis of 2 State-of-the-Art Reinforcement Learning Algorithms for Robotic Control.",
     "skills": "AI/Machine Learning, PyTorch, High Power Computing (HPC), Control Algorithms",
-    "images": [
-        { "src": "/project_cards/SOP_TD3/humanoid.png", "alt": "Image 1" },
-        { "src": "/project_cards/SOP_TD3/CheetahSOP.png", "alt": "Image 2" },
-        { "src": "/project_cards/SOP_TD3/SquashingProb.png", "alt": "Image 2" }
-    ],
-    "video": "https://www.youtube.com/embed/NXwm4585J18",
-    "paper": "project_cards/SOP_TD3/DataMining.pdf"
+    "video": ["https://www.youtube.com/embed/NXwm4585J18", "https://youtube.com/embed/1mutJ04m5gw"],
+    "paper": "project_cards/SOP_TD3/SOP_TD3.pdf"
 }

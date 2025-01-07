@@ -6,13 +6,13 @@ function Introduction() {
         <div id="introduction">
           <img src="/bridge.svg"></img>
           <svg viewBox="0 0 150 19">
-              <text x="0" y="15">I'm Will Stonebridge,</text>
+              <text x="0" y="14">I'm Will Stonebridge,</text>
           </svg>
-          <svg viewBox="0 0 232 19">
-              <text x="0" y="15">an Engineering Major at Purdue</text>
+          <svg viewBox="0 0 213 17">
+              <text x="0" y="12">I love solving problems using</text>
           </svg>
-          <svg viewBox="0 0 260 19">
-              <text x="0" y="15">and the programmer of this website.</text>
+          <svg viewBox="0 0 284 18">
+              <text x="0" y="13">Data Science and Software Engineering</text>
           </svg>
       </div>
       </div>

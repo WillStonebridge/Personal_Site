@@ -43,8 +43,8 @@ interface ProjectSummary {
     name: string;
     summary: string;
     skills: string;
-    images: { src: string; alt: string }[];
-    video?: string;
+    images?: { src: string; alt: string }[];
+    video?: string[];
     paper?: string;
 }
 
@@ -56,8 +56,19 @@ function ProjectCard(props: any) {
             <h3>{summary.name}</h3>
             <p><u><i>Relevant Skills:</i></u> {summary.skills}</p>
             <p><u><i>Summary:</i></u> {summary.summary}</p>
-            {summary.video && <iframe src={summary.video}></iframe>}
-            {summary.images && <ImageSlider images={summary.images} />}
+
+            {summary.video && summary.video.map((video, index) => (
+              <iframe src={video}></iframe>
+            ))}
+
+            {summary.images && summary.images.length > 0 && (
+                summary.images.length === 1 ? (
+                    <img src={summary.images[0].src} alt={summary.images[0].alt} />
+                ) : (
+                    <ImageSlider images={summary.images} />
+                )
+            )}
+            
             {summary.paper && <object data={summary.paper}/>}
             {summary.paper && <p className='subte'><i>right click to download</i></p>}
         </div>
