@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./ProjectCard.css"
 
 
-const ImageSlider = ({ images }) => {
+const ImageSlider = ({ images }: any) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -22,7 +22,7 @@ const ImageSlider = ({ images }) => {
   return (
     <div className="slideshow-container">
       <Slider {...settings}>
-        {images.map((image, index) => (
+        {images.map((image: any, index: any) => (
           <div key={index} className="image-slide">
             <div className="image-wrapper"> {/* New wrapper for vertical centering */}
                 <img
@@ -49,7 +49,7 @@ interface ProjectSummary {
 }
 
 
-function ProjectCard(props) {
+function ProjectCard(props: any) {
     const summary: ProjectSummary = props.summary;
     return(
         <div className='project-card'>
