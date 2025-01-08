@@ -73,7 +73,8 @@ function ProjectCard(props: any) {
                 )
             )}
 
-            {summary.paper && <object data={summary.paper}/>}
+            {summary.paper && <object data={summary.paper} type="application/pdf"><embed src={summary.paper}/></object>}
+
             {summary.paper && <p className='subtext'><i>right click to download</i></p>}
         </div>
     );
