@@ -1,6 +1,6 @@
 {
     "name": "Flow Sensor Testing Suite",
-    "summary": "I propose, design and implement a verstatile testing suite for the flow sensor. The suite is capable of queing up multiple tests at differing flow rates, while monitoring for any anomolys. This significantly reduced manual labor for the team and allowed for the collection of more accurate and consistent data.",
+    "summary": "I propose, design and implement a verstatile testing suite for the flow sensor. The suite is capable of queing up multiple tests at differing flow rates, while monitoring for any anomolys. This reduced the manual labor required by the team by an hour per day for the team and doubled the amount of data we could collect in the same time frame.",
     "skills": "Ownership, Microcontrollers, C, Soldering",
     "images": [],
     "video": []
