@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "Genetic Algorithm for Multi-Objective Optimization",
+    "summary": "Genetic Algorithms are used to solve problems that seek to attain the best value on multiple metrics. For example, in the case of a car, we would want to maximize speed and minimize fuel consumption. In this project, I implement an algorithm that solves a similar problem, but for the purpose of designing Optimal Satellite Configurations. My algorithm achieves comprable results to the state-of-the-art algorithms, and demonstrates the ability to find better solutions under a shorted timeframe.",
+    "skills": "Data Science, Optimization, ML",
     "images": [
         {
             "src": "/project_cards/genetic/gaflowchart.png",

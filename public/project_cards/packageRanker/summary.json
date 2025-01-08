@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "Package Ranker Website",
+    "summary": "Designed a website with 4 other students that evaluated a series of npm packages and ranked them on their performance. The site was hosted on AWS EC2 and used AWS RDS for its Database. Project Scrums were managed through Github Projects. We were able to achieve performance in the top 20th percentile of our class.",
+    "skills": "AWS RDS, Scrum, TypeScript, SQL, AWS EC2, Unit Testing, Software Engineering",
     "images": [
         {
             "src": "/project_cards/packageRanker/awsRDS.png",

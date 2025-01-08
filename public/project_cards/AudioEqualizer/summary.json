@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "Audio Equalizer",
+    "summary": "Built a basic audio equalizer capable of filtering audio. Utilized a series of ICs, resistors, capacitors, and op-amps to create a 3-band equalizer. The equalizer was able to filter out specific frequencies and amplify others.",
+    "skills": "Analog Circuit Design, Soldering",
     "images": [
         {
             "src": "/project_cards/AudioEqualizer/equalizer diagram.png",

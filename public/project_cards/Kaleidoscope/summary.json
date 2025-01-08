@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "Kaleidoscope - Automatic Rotoscoping on the Web",
+    "summary": "Kaleidoscope is a web based application that Rotoscopes (redraws a video frame by frame) in different styles. For example, the video below rotoscopes a video into the style of Claude Monet. The computational complexity of the Generative AI model we used necessitated management through Amazons Kubernetes Service (EKS).",
+    "skills": "AWS, Kubernetes, Generative AI, Web Development",
     "images": [
         {
             "src": "/project_cards/Kaleidoscope/image.png",

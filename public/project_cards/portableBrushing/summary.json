@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "Portable Brushing Application",
+    "summary": "Designed a highly portable GUI capable of demonstrating trade-offs when dealing with highly dimensional data. Regularly presented to stakeholders throughout the design process.",
+    "skills": "JavaScript, HTML, Data Analysis, Ownership",
     "images": [
         {
             "src": "/project_cards/portableBrushing/brushing.jpg",

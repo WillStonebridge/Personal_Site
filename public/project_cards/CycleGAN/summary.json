@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "CycleGAN Rediscovery Study",
+    "summary": "CycleGAN is a generative image model that stylizes images from one domain to another. In addition to the original paper's datasets, I perform webscraping to generate my own datasets, such as water/wine. I achieve comprable results to the original paper and success on a number of my own datasets. Finally, I analyze where and why the model fails.",
+    "skills": "Generative AI, PyTorch, Image Processing, Batch Computing",
     "images": [
         {
             "src": "/project_cards/CycleGAN/analytics_panel.png",

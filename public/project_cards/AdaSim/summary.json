@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "Simulating Drone Movement in Unity",
+    "summary": "Designed a Unity Asset that allows users to easily design motion planning algorithms for robots in a 3d environment. Computation is completely containerized, which allows for deployment on any pre-existing Unity Scene",
+    "skills": "Docker, Unity, C#",
     "images": [
         {
             "src": "/project_cards/AdaSim/CityPaths.png",

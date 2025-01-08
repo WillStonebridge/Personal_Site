@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "Satellite Network Simulator",
+    "summary": "Communicated with GUI and back-end developers to deliver an API and pipeline that allowed for more rigorous testing across a Satellite Networking Simulator. Improved path-finding time complexity.",
+    "skills": "AWS S3, Web Development, Technical Communication, Data Structures/Algorithms, Kanban/Scrum",
     "images": [
         {
             "src": "/project_cards/satSim/s3.png",

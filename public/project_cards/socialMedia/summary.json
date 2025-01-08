@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "CampsGram - Social Media Site",
+    "summary": "Created a multithreaded social media site that allows users to message other users using network IO.",
+    "skills": "Multithreading, Github, UI, Socket Programming",
     "images": [],
     "video": [
         "https://youtube.com/embed/fhOhbYRXRag"

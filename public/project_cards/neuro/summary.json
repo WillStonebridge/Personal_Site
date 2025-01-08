@@ -1,7 +1,7 @@
 {
-    "name": "TODO",
-    "summary": "TODO",
-    "skills": "TODO",
+    "name": "Phoneme Pipeline",
+    "summary": "Created a Speech Reconition Pipeline for a Neuroscience Laboratory. This Pipeline converts .wav files into the phonemes (basic sounds) composing the speech using the Wav2Vec2.0 model. In order to design the pipeline, multiple NLP models were evaluated and studied on sythetic and real data. The pipeline is now used to aid the study of Brainwave-to-Speech interfaces.",
+    "skills": "Research, Data-Driven Design, Docker. NLP",
     "images": [
         {
             "src": "/project_cards/neuro/manual_wav2vec_cer.png",
