@@ -40,7 +40,7 @@ function ProjectBoard(props: any) {
   return (
     <div style={{display: "flex"}}>
     {summaries.map((row, index) => (
-      <div style={{width: "31.7vw", margin: "0.3vw"}}>
+      <div style={{width: "31.7vw", margin: "0.3vw", minWidth: "300px"}}>
         {row.map((summary, index) => (
             <ProjectCard key={index} summary={summary} />
         ))}

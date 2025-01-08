@@ -63,8 +63,9 @@
     margin: 0;
 }
 
-.project-card img {
-    width: 100%;
+.project-card .soloimg {
+    width: 90%;
+    padding: 1% 5% 2% 5%;
 }
 
 .project-card .subtext {

@@ -67,7 +67,7 @@ function ProjectCard(props: any) {
 
             {summary.images && summary.images.length > 0 && (
                 summary.images.length === 1 ? (
-                    <img src={summary.images[0].src} alt={summary.images[0].alt} />
+                    <img src={summary.images[0].src} alt={summary.images[0].alt } className='soloimg'/>
                 ) : (
                     <ImageSlider images={summary.images} />
                 )
