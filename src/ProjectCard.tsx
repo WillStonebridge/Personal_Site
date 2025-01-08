@@ -52,7 +52,7 @@ interface ProjectSummary {
 function ProjectCard(props: any) {
     const summary: ProjectSummary = props.summary;
     return(
-        <div className='project-card'>
+        <div className='project-card' id={props.id}> 
             <h3>{summary.name}</h3>
             <p><u><i>Relevant Skills:</i></u> {summary.skills}</p>
             <p><u><i>Summary:</i></u> {summary.summary}</p>

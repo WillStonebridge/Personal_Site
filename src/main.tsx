@@ -42,7 +42,7 @@ function ProjectBoard(props: any) {
     {summaries.map((row, index) => (
       <div style={{width: "31.7vw", margin: "0.3vw", minWidth: "300px"}}>
         {row.map((summary, index) => (
-            <ProjectCard key={index} summary={summary} />
+            <ProjectCard key={index} summary={summary} id={props.id}/>
         ))}
       </div>
     ))}
@@ -56,7 +56,7 @@ root.render(
     <Introduction />
 
     <h1>Some of my Data Science projects: </h1>
-    <ProjectBoard summaries={dataScienceSummaries} />
+    <ProjectBoard summaries={dataScienceSummaries} id='DSBoard' />
 
 
     <h1>Some of my Software Engineering projects: </h1>
