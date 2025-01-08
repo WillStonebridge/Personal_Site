@@ -28,6 +28,10 @@
   color: #ffffff;
 }
 
+#introduction svg img {
+  margin:0%;
+}
+
 #introduction text {
   fill:white;
 }
