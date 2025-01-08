@@ -6,5 +6,23 @@
         "https://www.youtube.com/embed/NXwm4585J18",
         "https://youtube.com/embed/1mutJ04m5gw"
     ],
-    "paper": "project_cards/SOP_TD3/SOP_TD3.pdf"
+    "paper": "project_cards/SOP_TD3/SOP_TD3.pdf",
+    "images": [
+        {
+            "src": "/project_cards/SOP_TD3/cheetah.png",
+            "alt": "Image 1"
+        },
+        {
+            "src": "/project_cards/SOP_TD3/CheetahSOP.png",
+            "alt": "Image 2"
+        },
+        {
+            "src": "/project_cards/SOP_TD3/SquashingProb.png",
+            "alt": "Image 3"
+        },
+        {
+            "src": "/project_cards/SOP_TD3/wgMu.png",
+            "alt": "Image 4"
+        }
+    ]
 }

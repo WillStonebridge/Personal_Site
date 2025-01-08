@@ -34,6 +34,9 @@ for folder in folders:
     if "video" not in summary:
         summary["video"] = []
 
+    if "videos" in summary:
+        del summary["videos"]
+
     if "paper" not in summary:
         for file_name in os.listdir(folder):
             if file_name.lower().endswith('.pdf'):

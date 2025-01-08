@@ -58,7 +58,11 @@ function ProjectCard(props: any) {
             <p><u><i>Summary:</i></u> {summary.summary}</p>
 
             {summary.video && summary.video.length > 0 && summary.video.map((video, index) => (
-              <iframe src={video}></iframe>
+              <iframe src={video} allowfullscreen="allowfullscreen"
+              mozallowfullscreen="mozallowfullscreen" 
+              msallowfullscreen="msallowfullscreen" 
+              oallowfullscreen="oallowfullscreen" 
+              webkitallowfullscreen="webkitallowfullscreen"></iframe>
             ))}
 
             {summary.images && summary.images.length > 0 && (
