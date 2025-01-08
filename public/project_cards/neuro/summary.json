@@ -1,0 +1,26 @@
+{
+    "name": "TODO",
+    "summary": "TODO",
+    "skills": "TODO",
+    "images": [
+        {
+            "src": "/project_cards/neuro/manual_wav2vec_cer.png",
+            "alt": "Image 1"
+        },
+        {
+            "src": "/project_cards/neuro/phoneme alignment.png",
+            "alt": "Image 2"
+        },
+        {
+            "src": "/project_cards/neuro/precRec_comp.png",
+            "alt": "Image 3"
+        },
+        {
+            "src": "/project_cards/neuro/SysDiagram.png",
+            "alt": "Image 4"
+        }
+    ],
+    "videos": [],
+    "paper": "/project_cards/neuro/Makin_UG.pdf",
+    "video": []
+}

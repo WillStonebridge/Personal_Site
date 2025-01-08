@@ -1,0 +1,22 @@
+{
+    "name": "TODO",
+    "summary": "TODO",
+    "skills": "TODO",
+    "images": [
+        {
+            "src": "/project_cards/AdaSim/CityPaths.png",
+            "alt": "Image 1"
+        },
+        {
+            "src": "/project_cards/AdaSim/colliders.png",
+            "alt": "Image 2"
+        },
+        {
+            "src": "/project_cards/AdaSim/Project-Architecture.png",
+            "alt": "Image 3"
+        }
+    ],
+    "videos": [],
+    "paper": "/project_cards/AdaSim/CS_592_Motion_Planning_Report.pdf",
+    "video": []
+}

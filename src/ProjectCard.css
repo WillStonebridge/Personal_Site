@@ -56,8 +56,12 @@
 .project-card object {
     width: 90%;
     padding: 0% 5% 0% 5%;
-    aspect-ratio: 4 /2;
+    height: 50vh;
     margin: 0;
+}
+
+.project-card img {
+    width: 100%;
 }
 
 .project-card .subtext {

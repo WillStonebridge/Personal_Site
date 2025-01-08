@@ -1,0 +1,26 @@
+{
+    "name": "TODO",
+    "summary": "TODO",
+    "skills": "TODO",
+    "images": [
+        {
+            "src": "/project_cards/CycleGAN/analytics_panel.png",
+            "alt": "Image 1"
+        },
+        {
+            "src": "/project_cards/CycleGAN/batch1.png",
+            "alt": "Image 2"
+        },
+        {
+            "src": "/project_cards/CycleGAN/sysmodel.jpg",
+            "alt": "Image 3"
+        },
+        {
+            "src": "/project_cards/CycleGAN/wine_water.png",
+            "alt": "Image 4"
+        }
+    ],
+    "videos": [],
+    "paper": "/project_cards/CycleGAN/CycleGAN.pdf",
+    "video": []
+}

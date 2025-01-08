@@ -3,8 +3,19 @@
     "summary": "I worked with a team of 3 engineers to investigate solving multi-burn missions with reinforcement learning. Demonstrated the feasiblity of adversarial RPO operations.",
     "skills": "AI/Machine Learning, RLLib, Distributed Training, Orbital Mechanics",
     "images": [
-        { "src": "/project_cards/Orbital/hohmann.png", "alt": "Hohmann manuever" },
-        { "src": "/project_cards/Orbital/RPO.png", "alt": "RPO manuever" },
-        { "src": "/project_cards/Orbital/rl.webp", "alt": "RL env" }
-    ]
+        {
+            "src": "/project_cards/Orbital/hohmann.png",
+            "alt": "Hohmann manuever"
+        },
+        {
+            "src": "/project_cards/Orbital/RPO.png",
+            "alt": "RPO manuever"
+        },
+        {
+            "src": "/project_cards/Orbital/rl.webp",
+            "alt": "RL env"
+        }
+    ],
+    "videos": [],
+    "video": []
 }

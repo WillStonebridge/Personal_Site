@@ -3,10 +3,24 @@
     "summary": "In this project, I compare 2 solutions to the \"Curse of Dimensionality\". Namely, I compare Autencoders - a popular ML compression method - with the traditional PCA (Data Science) algorithms. Performance is measured across multiple datasets and metrics and findings are summarized in the paper below.",
     "skills": "Data Science, Clustering, Pytorch",
     "images": [
-        { "src": "/project_cards/Dimensionality/NuerSpec.png", "alt": "Image 2" },
-        { "src": "/project_cards/Dimensionality/Nueral_Spectral_outputs_cancer.png", "alt": "Image 1" },
-        { "src": "/project_cards/Dimensionality/Nueral_Spectral_Outputs_img.png", "alt": "Image 2" },
-        { "src": "/project_cards/Dimensionality/PCA_Spectral_labels_cancer.png", "alt": "Image 2" }
+        {
+            "src": "/project_cards/Dimensionality/NuerSpec.png",
+            "alt": "Image 2"
+        },
+        {
+            "src": "/project_cards/Dimensionality/Nueral_Spectral_outputs_cancer.png",
+            "alt": "Image 1"
+        },
+        {
+            "src": "/project_cards/Dimensionality/Nueral_Spectral_Outputs_img.png",
+            "alt": "Image 2"
+        },
+        {
+            "src": "/project_cards/Dimensionality/PCA_Spectral_labels_cancer.png",
+            "alt": "Image 2"
+        }
     ],
-    "paper": "project_cards/Dimensionality/DataMining.pdf"
+    "paper": "project_cards/Dimensionality/DataMining.pdf",
+    "videos": [],
+    "video": []
 }

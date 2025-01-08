@@ -7,7 +7,7 @@ import './index.css'
 import SOP_TD3 from '../public/project_cards/SOP_TD3/summary.json';
 import Orbital from '../public/project_cards/Orbital/summary.json';
 import Dimensionality from '../public/project_cards/Dimensionality/summary.json';
-import AdaSim from '../public/project_cards/Dimensionality/summary.json';
+import AdaSim from '../public/project_cards/AdaSim/summary.json';
 import genetic from '../public/project_cards/genetic/summary.json';
 import CycleGAN from '../public/project_cards/CycleGAN/summary.json';
 import neuro from '../public/project_cards/neuro/summary.json';
@@ -31,7 +31,9 @@ interface ProjectSummary {
   paper?: string;
 }
 
-const dataScienceSummaries: ProjectSummary[] = [SOP_TD3, Orbital, Dimensionality, Orbital, Orbital, Orbital, Orbital, Orbital,] 
+const dataScienceSummaries: ProjectSummary[] = [SOP_TD3, Orbital, Dimensionality, AdaSim, genetic, CycleGAN, neuro]; 
+const softwareSummaries: ProjectSummary[] = [Website, Kaleidoscope, packageRanker, satSim, portableBrushing, socialMedia];
+const hardwareSummaries: ProjectSummary[] = [FlowSensor, AudioEqualizer];
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(
@@ -40,6 +42,18 @@ root.render(
     <h1>Some of my Data Science projects: </h1>
     <div style={{display: "flex", flexWrap: "wrap"}}>
     {dataScienceSummaries.map((summary, index) => (
+          <ProjectCard key={index} summary={summary} />
+        ))}
+    </div>
+    <h1>Some of my Software Engineering projects: </h1>
+    <div style={{display: "flex", flexWrap: "wrap"}}>
+    {softwareSummaries.map((summary, index) => (
+          <ProjectCard key={index} summary={summary} />
+        ))}
+    </div>
+    <h1>Some of my Hardware projects: </h1>
+    <div style={{display: "flex", flexWrap: "wrap"}}>
+    {hardwareSummaries.map((summary, index) => (
           <ProjectCard key={index} summary={summary} />
         ))}
     </div>

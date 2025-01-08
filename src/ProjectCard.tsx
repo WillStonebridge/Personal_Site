@@ -57,7 +57,7 @@ function ProjectCard(props: any) {
             <p><u><i>Relevant Skills:</i></u> {summary.skills}</p>
             <p><u><i>Summary:</i></u> {summary.summary}</p>
 
-            {summary.video && summary.video.map((video, index) => (
+            {summary.video && summary.video.length > 0 && summary.video.map((video, index) => (
               <iframe src={video}></iframe>
             ))}
 
@@ -68,9 +68,9 @@ function ProjectCard(props: any) {
                     <ImageSlider images={summary.images} />
                 )
             )}
-            
+
             {summary.paper && <object data={summary.paper}/>}
-            {summary.paper && <p className='subte'><i>right click to download</i></p>}
+            {summary.paper && <p className='subtext'><i>right click to download</i></p>}
         </div>
     );
     
