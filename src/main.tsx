@@ -31,32 +31,40 @@ interface ProjectSummary {
   paper?: string;
 }
 
-const dataScienceSummaries: ProjectSummary[] = [SOP_TD3, Orbital, Dimensionality, AdaSim, genetic, CycleGAN, neuro]; 
-const softwareSummaries: ProjectSummary[] = [Website, Kaleidoscope, packageRanker, satSim, portableBrushing, socialMedia];
-const hardwareSummaries: ProjectSummary[] = [FlowSensor, AudioEqualizer];
+const dataScienceSummaries: ProjectSummary[][] = [[SOP_TD3, AdaSim], [CycleGAN, Dimensionality], [Orbital, genetic, neuro]]; 
+const softwareSummaries: ProjectSummary[][] = [[Website, packageRanker], [ Kaleidoscope, socialMedia], [satSim, portableBrushing]];
+const hardwareSummaries: ProjectSummary[][] = [[FlowSensor], [AudioEqualizer]];
+
+function ProjectBoard(props: any) {
+  const summaries: ProjectSummary[][] = props.summaries;
+  return (
+    <div style={{display: "flex"}}>
+    {summaries.map((row, index) => (
+      <div style={{width: "31.7vw", margin: "0.3vw"}}>
+        {row.map((summary, index) => (
+            <ProjectCard key={index} summary={summary} />
+        ))}
+      </div>
+    ))}
+    </div>
+  )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(
   <React.StrictMode>
     <Introduction />
+
     <h1>Some of my Data Science projects: </h1>
-    <div style={{display: "flex", flexWrap: "wrap"}}>
-    {dataScienceSummaries.map((summary, index) => (
-          <ProjectCard key={index} summary={summary} />
-        ))}
-    </div>
+    <ProjectBoard summaries={dataScienceSummaries} />
+
+
     <h1>Some of my Software Engineering projects: </h1>
-    <div style={{display: "flex", flexWrap: "wrap"}}>
-    {softwareSummaries.map((summary, index) => (
-          <ProjectCard key={index} summary={summary} />
-        ))}
-    </div>
+    <ProjectBoard summaries={softwareSummaries} />
+
     <h1>Some of my Hardware projects: </h1>
-    <div style={{display: "flex", flexWrap: "wrap"}}>
-    {hardwareSummaries.map((summary, index) => (
-          <ProjectCard key={index} summary={summary} />
-        ))}
-    </div>
+    <ProjectBoard summaries={hardwareSummaries} />
+
   </React.StrictMode>
 );
 
