@@ -1,6 +1,7 @@
 #intro_background {
   display:flex;
   justify-content: center;
+  min-width: 900px;
 
   background-image: url('/amber.webp');
   background-size: 100%; /* Ensures the image covers the entire area */
@@ -8,8 +9,16 @@
   background-repeat: no-repeat;
 }
 
+/* Media query to ensure minimum margin */
+@media (max-width: 1200px) {
+  #introduction {
+    margin: 410px 0; /* Set a minimum margin value */
+  }
+}
+
 
 #introduction {
+  
   margin: 10vw 0vw;
   width: 30vw; /* 30% of viewport width */
   display: flex;

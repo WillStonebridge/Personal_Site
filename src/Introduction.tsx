@@ -8,8 +8,8 @@ function Introduction() {
           <svg viewBox="0 0 150 19">
               <text x="0" y="14">I'm Will Stonebridge,</text>
           </svg>
-          <svg viewBox="0 0 213 17">
-              <text x="0" y="12">I love solving problems using</text>
+          <svg viewBox="0 0 162 17">
+              <text x="0" y="12">I solve problems using</text>
           </svg>
           <svg viewBox="0 0 284 18">
               <text x="0" y="13">Data Science and Software Engineering</text>
