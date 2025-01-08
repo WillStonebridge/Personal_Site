@@ -1,6 +1,6 @@
 {
     "name": "This Website!!!",
-    "summary": "Designed this website to showcase my portfolio. The site runs on AWS and is built using the React Framework. Designed to be responsive on PC and Mobile devices. Wix is for suckers.",
+    "summary": "Designed this website to showcase my portfolio. The site runs on AWS and is built using the React Framework. Caddy and Route53 are used for addressing/SSL. Who needs Wix anyway?",
     "skills": "React, AWS, TypeScript/HTML/CSS",
     "images": [
         {
