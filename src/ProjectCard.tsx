@@ -13,7 +13,7 @@ const ImageSlider = ({ images }: any) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000, // Adjust autoplay speed as needed
+    autoplaySpeed: 4000, // Adjust autoplay speed as needed
     adaptiveHeight: false, // Crucial for varying image sizes
     centerMode: true, // Optional: Centers the current slide
     centerPadding: "-2px"
