@@ -31,7 +31,7 @@ interface ProjectSummary {
   paper?: string;
 }
 
-const dataScienceSummaries: ProjectSummary[][] = [[SOP_TD3, AdaSim], [CycleGAN, Dimensionality], [Orbital, genetic, neuro]]; 
+const dataScienceSummaries: ProjectSummary[][] = [[SOP_TD3, AdaSim], [CycleGAN, Dimensionality], [genetic, Orbital, neuro]]; 
 const softwareSummaries: ProjectSummary[][] = [[Website, packageRanker], [ Kaleidoscope, socialMedia], [satSim, portableBrushing]];
 const hardwareSummaries: ProjectSummary[][] = [[FlowSensor], [AudioEqualizer]];
 
@@ -55,8 +55,8 @@ root.render(
   <React.StrictMode>
     <Introduction />
 
-    <h1>Some of my Data Science projects: </h1>
-    <ProjectBoard summaries={dataScienceSummaries} id='DSBoard' />
+    <h1>Some of my AI / Data Science projects: </h1>
+    <ProjectBoard summaries={dataScienceSummaries} id='DSBoard'/>
 
 
     <h1>Some of my Software Engineering projects: </h1>
