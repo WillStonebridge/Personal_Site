@@ -21,8 +21,8 @@
 
 #introduction {
   
-  margin: 10vw 0vw;
-  width: 20vw; /* 30% of viewport width */
+  margin: 10vh 0vw;
+  width: 30vw; /* 30% of viewport width */
   display: flex;
   align-items: center;
   flex-direction: column; /* Stack items vertically */
@@ -46,8 +46,9 @@
   font-size: 1.7vw;
 }
 
-#introduction svg img {
-  margin:0%;
+
+#introduction img {
+  width: 100%;
 }
 
 #introduction text {
